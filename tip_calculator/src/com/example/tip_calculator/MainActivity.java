@@ -15,7 +15,8 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		//following line relates xml to java
+		setContentView(R.layout.activity_main);  // this is glue which tied xml layout to java activity
 	}
 
 	@Override
